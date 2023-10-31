@@ -1,0 +1,25 @@
+.top {
+    border: 2px solid blue;
+    flex-direction: row;
+    background-color: blue;
+    display: flex;
+    justify-content: right;
+    color: white;
+    padding: 10px;
+}
+
+.home {
+    padding: 10px;
+}
+
+.about {
+    padding: 10px;
+}
+
+.product {
+    padding: 10px;
+}
+
+.contact {
+    padding: 10px;
+}

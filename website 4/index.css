@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:   ;
+}
+
+
+.logo {
+    width: 115px;
+    height: auto;
+    cursor: pointer;
+}
+
+li, a, button {
+    font-family: "inconsolata", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    border: 2px solid red;
+    flex-direction: row;
+    background-color: red;
+    text-decoration: none;  
+    display: flex;
+    justify-content:center;
+    color: white;
+    padding: 15px;
+
+}
+
+.img1 {
+    width: 50px;
+    height: auto;
+    padding: 10px;
+    margin: 5px;   
+}
+.img2 {
+    width: 50px;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+}
+.img3 {
+    width: 50px;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+}
+
+.links li a {
+    transition: all 0.3s ease 0s;
+}
+
+
+.links li a:hover {
+   color: white;
+   background-color: darkred;
+   border-radius: 25px;
+}
+
+a {
+    border: 2px solid red;
+    background-color: red   ;
+    border-radius: 25px;
+    padding: 10px 90px;
+    width: 100px;
+}
